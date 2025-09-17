@@ -1,0 +1,21 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* share word color  */
+.text-word{
+    color: #FD6E0A;
+}
+
+/* nav styles --> pasha-pashi niye ahasar je bepar ta */
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
