@@ -10,12 +10,47 @@
 .text-word{
     color: #FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+.btn-praimary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+}
 
-/* nav styles --> pasha-pashi niye ahasar je bepar ta */
+/* nav styles --> pasha-pashi niye ahasar je bepar ta push sereal vabe thakar je bpart ta */
+/* it's a god father 🤡*/
 nav{
     display: flex;
+    align-items: center;
+    /* line bora bor-dui ta contant ke dui dike ber kore dicche */
+    justify-content: space-between;
+    /* 0px vartical bora_bor */
+    /* 200px margin bora_bor */
+    margin: 0px 200px;
+}
+
+/* line bora_bor*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    /* list item ektu ekta theke ekta faka korar jonnww je beparta */
+    margin-right: 50px;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
