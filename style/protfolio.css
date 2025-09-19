@@ -20,6 +20,13 @@
     padding: 15px 30px;
     color: white;
     border-radius: 5px;
+    border: none;
+}
+/* header */
+.header{
+    background-image: url("../images/developer.png"),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* nav styles --> pasha-pashi niye ahasar je bepar ta push sereal vabe thakar je bpart ta */
@@ -39,7 +46,6 @@ nav ul{
     display: flex;
     align-items: center;
 }
-
 nav ul li{
     list-style: none;
     /* list item ektu ekta theke ekta faka korar jonnww je beparta */
@@ -49,8 +55,35 @@ nav ul li{
     font-weight: 800;
     font-size: 45px;
 }
-
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* styles bannar */
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+.banner-content{
+    max-width: 585px;
 }
