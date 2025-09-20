@@ -166,3 +166,46 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+.just{
+    /* width dile kaj hocche nah karon figmar soman toh korte lagbe tai nah*/
+    /* width: 900px; */
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.skill-descriptoin{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    margin-top: 30px;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap:20px;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* margin horizental top and bottum */
+.resume hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color:#D1D1D1;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
