@@ -31,6 +31,9 @@
     font-size: 18px;
     color:#757575;
 }
+.text-center{
+    text-align: center;
+}
 .seconddary-bg{
     background-color: #FFF8F3;
 }
@@ -110,13 +113,16 @@ main{
     /* same top-buttom=0 and lift and right=auto */
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles*/
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+
 }
 .about_sub{
     background-color: #FFFFFF;
@@ -149,3 +155,14 @@ main{
     padding:5px 3px;
 }
 
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
