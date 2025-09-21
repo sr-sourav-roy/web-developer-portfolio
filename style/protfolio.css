@@ -170,6 +170,7 @@ main section{
     /* width dile kaj hocche nah karon figmar soman toh korte lagbe tai nah*/
     /* width: 900px; */
     text-align: center;
+    font-size: 22.5px;
     margin-bottom: 50px;
     margin-top: 30px;
 }
@@ -186,22 +187,48 @@ main section{
 }
 
 /* resume section styles */
+.resume-add{
+    margin-bottom: 100px;
+    padding: 20px;
+}
 .resume-container{
     display: flex;
     gap:20px;
 }
-.experience-description{
-    font-size: 16px;
-    color: #757575;
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.experinece{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.experinece-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 30;
+    margin-bottom: 10px;
 }
 .experience-sub-title{
     font-size: 20px;
     color: #757575;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
-/* margin horizental top and bottum */
+.experience-description{
+    text-align:left;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .resume hr{
+    /* margin horizental top and bottum */
     margin-bottom: 30px;
     margin-top: 30px;
     color:#D1D1D1;
@@ -209,3 +236,8 @@ main section{
 .resume-download-cv{
     margin-top: 50px;
 }
+.btn-resume{
+    padding: 19px 17px 18px 50px;
+}
+
+
