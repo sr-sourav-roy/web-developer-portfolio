@@ -241,3 +241,48 @@ main section{
 }
 
 
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer-description{
+    color:#474747;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #757575;
+}
+.text-area{
+    height: 180px;
+    width: 100%;
+    font-size: 16px;
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    color: #757575;
+}
+.btn-footer{
+    width: 64px;
+    font-size: 18px;
+    color: white;
+}
