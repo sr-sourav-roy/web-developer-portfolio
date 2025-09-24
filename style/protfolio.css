@@ -5,6 +5,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 /* share word color  */
 .text-word{
@@ -39,7 +43,7 @@
 }
 
 /* header styles*/
-.header{
+header{
     background-image: url("../images/developer.png"),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
