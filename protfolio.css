@@ -1,0 +1,339 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* share word color  */
+.text-word{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-praimary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-descrption{
+    font-size: 18px;
+    color:#757575;
+}
+.text-center{
+    text-align: center;
+}
+.seconddary-bg{
+    background-color: #FFF8F3;
+}
+
+/* header styles*/
+header{
+    background-image: url("../images/developer.png"),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav styles --> pasha-pashi niye ahasar je bepar ta push sereal vabe thakar je bpart ta */
+/* it's a god father 🤡*/
+nav{
+    display: flex;
+    align-items: center;
+    /* line bora bor-dui ta contant ke dui dike ber kore dicche */
+    justify-content: space-between;
+    /* 0px vartical bora_bor */
+    /* 200px margin bora_bor */
+    margin: 0px 200px;
+}
+
+/* line bora_bor*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    /* list item ektu ekta theke ekta faka korar jonnww je beparta */
+    margin-right: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* styles bannar */
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    /* margin er kaj baki ache bro */
+;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+/* main styles */
+main{
+    /* web side er over_all hight width map ta..! */
+    max-width: 1140px;
+    /* same top-buttom=0 and lift and right=auto */
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+.about_sub{
+    background-color: #FFFFFF;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.item-descreption{
+    font-weight: bold;
+    color: #474747;
+    font-size: 20px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+.item-title{
+    font-size: 20px;
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.title-copy{
+    margin-bottom: 30px;
+}
+.descrption-copy{
+    margin-bottom: 30px;
+    text-align:center;
+    padding:5px 3px;
+}
+
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.just{
+    /* width dile kaj hocche nah karon figmar soman toh korte lagbe tai nah*/
+    /* width: 900px; */
+    text-align: center;
+    font-size: 22.5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.skill-descriptoin{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    margin-top: 30px;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* resume section styles */
+.resume-add{
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.resume-container{
+    display: flex;
+    gap:20px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.experinece{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.experinece-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 30;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.experience-description{
+    text-align:left;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.resume hr{
+    /* margin horizental top and bottum */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color:#D1D1D1;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+.btn-resume{
+    padding: 19px 17px 18px 50px;
+}
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer-description{
+    color:#474747;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #757575;
+}
+.text-area{
+    height: 180px;
+    width: 100%;
+    font-size: 16px;
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    color: #757575;
+}
+.btn-footer{
+    width: 64px;
+    font-size: 18px;
+    color: white;
+}
+/* responsive quary media */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container,
+    .resume-container, 
+    footer,
+    nav,
+    nav > ul,
+    .about-items,
+    .banner
+    {
+        flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .btn-praimary{
+        margin-top: 20px;
+    }
+    nav > ul{
+        gap:20px;
+    }
+    .nav-title{
+        margin-bottom: 10px;
+    }
+    header{
+        background-image: none;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"],
+    .text-area{
+        width: calc(100% - 40px);    
+    }
+    .about{
+        padding: 20px;
+    }
+}
